@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id ="@+id/image_view"
+        android:layout_gravity = "center"
+        android:layout_marginTop = "50dp"
+        android:src ="@drawable/ic_add_photo"/>
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/progress_View"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/upload_btn"
+        android:layout_marginStart = "15dp"
+        android:layout_marginTop = "50dp"
+        android:layout_marginEnd = "15dp"
+        android:text = "UPLOAD"
+        android:textSize = "20sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Choose Image"
+        android:id = "@+id/chooser"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Upload Image"
+        android:id = "@+id/upload_image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "here will be alert"
+        android:textSize = "20sp"
+        android:id = "@+id/alert"
+        android:textColor = "@android:color/holo_red_light"
+        android:textAlignment = "center"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"/>
+</LinearLayout>
+
